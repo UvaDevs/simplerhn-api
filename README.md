@@ -17,13 +17,13 @@ Es necesario incluir en la petición HTTP 3 parametros obligatorios. Estos param
 
 Como ejemplo mas simple, a continuación se muestra una URL en su estructura final para ser enviada por el Metodo HTTP GET.
 
-    https://simplerhn.com/api/sms/enviar?smstel=Mensaje
-    AMisClientes&smstxt=0050499929922&usrapi=755936d0710e12r5
+    https://simplerhn.com/api/sms/enviar?smstxt=Mensaje
+    AMisClientes&smstel=0050499929922&usrapi=755936d0710e12r5
     a8380d123495b0645
 
 #### Respuestas
 
-La respuesta obtenida despues de la ejecución de la petición variara, a continuación se muestran las posibles respuestas en formato JSON.
+La respuesta obtenida despues de la ejecución de la petición variará, a continuación se muestran las posibles respuestas en formato JSON.
 
 ###### Mensaje Enviado Exitosamente.
 
